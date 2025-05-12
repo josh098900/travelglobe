@@ -1,0 +1,58 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+#root, .globe-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.globe-container > .globe {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+/* Sidebar */
+.sidebar {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  width: 180px;
+  max-height: 80%;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.sidebar h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sidebar .entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.sidebar .entry img {
+  width: 24px;
+  height: 18px;
+  margin-right: 8px;
+  object-fit: cover;
+  border: 1px solid #444;
+}
