@@ -1,6 +1,7 @@
 # React + Vite
 watch 
-![Globe Demo](./globe-demo.gif)
+![Globe Demo](./public/globe-demo.gif)
+
 
 ## Live Demo
 
